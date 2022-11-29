@@ -75,7 +75,7 @@
                     <p>{{product.pname}}</p>
                 </div>
                 <div class="price">
-                    <p>&#8377;{{product.price}}</p>
+                    <p>&#8377;{{product.price}} &#47; {{product.size}}</p>
                 </div>
                 <div class="details">
                     <a href="/products/{{product.pname}}">View</a>

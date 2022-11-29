@@ -1,11 +1,12 @@
 from django.db import models
+from NeedToShop import settings
 
 
 class Product(models.Model):
     pname = models.CharField(max_length=20)
     price = models.IntegerField()
     size = models.CharField(max_length=10, null=True)
-    img = models.ImageField()
+    img = models.FileField()
     ptype = models.CharField(max_length=20)
     details = models.TextField(max_length=2000, null=True)
 
