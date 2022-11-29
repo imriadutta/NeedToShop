@@ -8,6 +8,10 @@
 <body>
     <header>{% include "header.php" %}</header>
 
+    <div class="back-btn">
+        <a onclick="window.history.back()"><strong>&#8249;</strong></a>
+    </div>
+
     <div id="pname">
         <h1>{{product.pname}}</h1>
     </div>

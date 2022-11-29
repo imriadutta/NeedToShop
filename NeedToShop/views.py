@@ -23,12 +23,26 @@ def home(request):
 
 
 def dailyproducts(request):
-    data = {}
+    products = Product.objects.all()
+    dailyproducts = []
+    for product in products:
+        if product.ptype == 'dailyproducts':
+            dailyproducts.append(product)
+    data = {
+        'dailyproducts': dailyproducts,
+    }
     return render(request, 'dailyproducts.php', data)
 
 
 def grocery(request):
-    data = {}
+    products = Product.objects.all()
+    grocery = []
+    for product in products:
+        if product.ptype == 'grocery':
+            grocery.append(product)
+    data = {
+        'grocery': grocery,
+    }
     return render(request, 'grocery.php', data)
 
 
