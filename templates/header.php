@@ -6,10 +6,10 @@
     <ul>
         <div class="row">
             <div class="col">
-                <li><a href="">Need To Shop</a></li>
+                <li><a href="https://needtoshop.up.railway.app/">Need To Shop</a></li>
             </div>
             <div class="col">
-                <li><a href="">Home</a></li>
+                <li><a href="https://needtoshop.up.railway.app/">Home</a></li>
                 <li><a href="/dailyproducts">Daily Products</a></li>
                 <li><a href="/grocery">Grocery</a></li>
                 <li><a href="/emergency">Emergency</a></li>
