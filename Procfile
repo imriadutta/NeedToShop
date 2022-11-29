@@ -1,0 +1,1 @@
+web: gunicorn NeedToShop.wsgi --log-file -
